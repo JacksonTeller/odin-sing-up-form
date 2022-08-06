@@ -10,10 +10,42 @@ body {
 .interactive-side {
     width: 30vw;
     height: 540px;
+    background-color: gainsboro;
 }
 
 .main-side {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
     width: 70vw;
+}
+
+.text1 {
+    width: 600px;
+    margin: 30px 50px;
+}
+
+.text2 {
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.fill-in {
+    display: flex;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-in-check {
+    margin-left: 50px;
 }
