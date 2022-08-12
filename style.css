@@ -11,11 +11,33 @@ body {
     font-size: 20px;
 }
 
-.image-side {
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 30vw;
     height: 100vh;
     background-image: url(./images/Frame-3.svg);
     background-size: cover;
+}
+
+img {
+    width: auto;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-text {
+    align-self: center;
+    font-family: "AvaraBold";
+    font-size: 75px;
+    color: #dcdaf2;
+    padding-top: 40px;
+    /* margin-left: 17px; */
 }
 
 .main-side {
