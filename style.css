@@ -14,7 +14,7 @@ body {
 .image-side {
     width: 30vw;
     height: 100vh;
-    background-image: url(./images/hexagon.jpg);
+    background-image: url(./images/Frame-3.svg);
     background-size: cover;
 }
 
@@ -25,7 +25,7 @@ body {
     flex-wrap: wrap;
     width: 70vw;
     background-color: #e3f5fc;
-    background-image: url(./images/full-hexagon.svg);
+    background-image: url(./images/Desktop-2.svg);
     /* background-position: center bottom; */
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -84,6 +84,6 @@ button {
 }
 
 .log-in-check {
-    margin-top: 60px;
-    margin-left: 100px;
+    margin-top: 65px;
+    margin-left: 120px;
 }
