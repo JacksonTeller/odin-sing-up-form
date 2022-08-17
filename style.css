@@ -143,15 +143,25 @@ input + span {
   input:valid + span::before {
     content: '✓';
     color: purple;
-  }
-  
+  } 
 /* testing segment */
 
 button {
     align-self: flex-end;
     margin-right: 240px;
-    height: 30px;
+    /* height: 30px; */
     width: 200px;
+
+    background-color: #dcdaf2;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;  
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .log-in-check {
