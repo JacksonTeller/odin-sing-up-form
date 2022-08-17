@@ -1,7 +1,6 @@
 # odin-sing-up-form
 My first try to create a sign up form 
-Photo by <a href="https://unsplash.com/@martinaab?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martina Bombardieri</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> - beach
-  
 
-  Photo by <a href="https://unsplash.com/@aquaryus15?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aquaryus15</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> - hexagon
-  
+Design is made in Figma (never tried it before but turned out it's a great tool).
+The whole page will be modified with JS and a Media Query a little bit later.
+Password confirmation doesn't work for now.
