@@ -81,7 +81,7 @@ form {
     display: flex;
     flex-direction: column;
     padding-left: 165px;
-    background-color: azure;
+    /* background-color: azure; */
 
     flex-grow: 2;
 }
@@ -158,10 +158,13 @@ button:hover {
 }
 
 .log-in-check {
-    padding-top: 65px;
+    padding-top: 40px;
     padding-left: 120px;
-    /* background-image: url(./images/Slice-1.svg); */
-    background-color: beige;
+    padding-bottom: 50;
+    background-image: url(./images/Slice-1.svg);
+    background-size: cover;
+    background-position: center top;
+    /* background-color: beige; */
 
     flex-grow: 1;
 }
