@@ -49,16 +49,12 @@ img {
     justify-content: space-between;
     width: auto;
     background-color: #e3f5fc;
-    /* background-image: url(./images/Desktop-2.svg); */
     background-size: cover;
 
 }
 
 
 .head-text {
-    /* height: 270px; */
-    /* background-color: bisque; */
-    
     background-image: url(./images/Slice-2.svg);
     background-size: cover;
     background-position: center bottom;
@@ -81,7 +77,6 @@ form {
     display: flex;
     flex-direction: column;
     padding-left: 165px;
-    /* background-color: azure; */
 
     flex-grow: 2;
 }
@@ -99,8 +94,6 @@ form {
 .form-row {
     display: flex;
     flex-direction: column;
-    
-    /* flex-flow: row wrap; */
     
     margin-bottom: 10px;
     margin-right: 80px;
@@ -123,22 +116,22 @@ input:required {
 
 input + span {
     position: relative;
-  }
+}
   
-  input + span::before {
+input + span::before {
     position: absolute;
     right: -20px;
-  }
+}
    
-  input:not(:placeholder-shown):not(:focus):invalid + span::before {
+input:not(:placeholder-shown):not(:focus):invalid + span::before {
     content: '✖';
     color: red;
-  }
+}
   
-  input:valid + span::before {
+input:valid + span::before {
     content: '✓';
     color: purple;
-  } 
+} 
 
 button {
     align-self: flex-end;
@@ -155,7 +148,6 @@ button {
 
 button:hover {
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24) inset, 0 6px 8px 0 rgba(0,0,0,0.19) inset;
-    /* background-color: hsl(245,48,90,0.5); */
 }
 
 button:active {
@@ -169,7 +161,6 @@ button:active {
     background-image: url(./images/Slice-1.svg);
     background-size: cover;
     background-position: center top;
-    /* background-color: beige; */
 
     flex-grow: 1;
 }
