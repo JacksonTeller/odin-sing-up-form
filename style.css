@@ -6,7 +6,7 @@
 
 body {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
     flex-wrap: nowrap;
 
     margin: 0;
@@ -45,7 +45,7 @@ img {
 .main-side {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     width: auto;
     background-color: #e3f5fc;
@@ -68,13 +68,13 @@ img {
 .text1 {
     width: 600px;
     margin-top: 60px;
-    margin-left: 300px;
+    margin-left: 210px;
 }
 
 .text2 {
     margin-top: 15px;
     margin-bottom: 80px;
-    margin-left: 300px;
+    margin-left: 210px;
 }
 
 form {
@@ -100,7 +100,7 @@ form {
     display: flex;
     flex-direction: column;
     
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     
     margin-bottom: 10px;
     margin-right: 80px;
@@ -154,7 +154,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 16px 0 rgba(0,0,0,0.19);
 }
 
 .log-in-check {
