@@ -121,6 +121,7 @@ input + span {
 input + span::before {
     position: absolute;
     right: -20px;
+    bottom: 0;
 }
    
 input:not(:placeholder-shown):not(:focus):invalid + span::before {
