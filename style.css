@@ -150,11 +150,16 @@ button {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 4px;  
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 
 button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 16px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24) inset, 0 6px 8px 0 rgba(0,0,0,0.19) inset;
+    /* background-color: hsl(245,48,90,0.5); */
+}
+
+button:active {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24) inset, 0 12px 16px 0 rgba(0,0,0,0.19) inset;
 }
 
 .log-in-check {
